@@ -1,0 +1,31 @@
+/**
+ * The "Write alt text with AI" button in the media popup and on the Edit
+ * Media screen.
+ */
+
+.aaat-field {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 6px;
+}
+
+.aaat-generate.button {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.aaat-generate-icon {
+	flex: none;
+	color: var(--wp-admin-theme-color, #3858e9);
+}
+
+.aaat-field-status {
+	margin: 0 !important;
+	line-height: 1.5;
+}
+
+.aaat-field-status:empty { display: none; }
+
+.aaat-field-status.is-error { color: #d63638 !important; }
